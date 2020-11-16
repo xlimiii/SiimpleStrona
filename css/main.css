@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
 html {
-  font-family: "Verdana", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   color: #546778;
@@ -19,7 +19,7 @@ body {
   overflow-x: hidden;
   width: 100%;
   height: 100%;
-  font-family: "Verdana", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   color: #546778;
   font-weight: normal;

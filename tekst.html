@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="nazwa" content="width=device-width, initial-scale=0.9">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Początki z Siimple</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+    <main>
+        <div class="siimple-navbar siimple-navbar--orange">
+            <a class="siimple-navbar-title" href="strona.html">Siimple</a>
+            <a class="siimple-navbar-subtitle">:)</a>
+            <div class="siimple--float-right">
+                <a class="siimple-navbar-item" href="styl.html">Styl</a>
+                <a class="siimple-navbar-item" href="tekst.html">Tekst</a>
+                <a class="siimple-navbar-item" href="form.html">Formularze</a>
+                <a class="siimple-navbar-item" href="basic.html">Inne</a>
+            </div>
+        </div>
+        <div class="siimple-grid siimple--pl-3 siimple--width-75 ">
+            <div class="siimple-h1">Stylowanie tekstu</div>
+            <p class="siimple-p">
+                To jest najzwyczajniejszy na świecie paragraf wystylowany z pomocą siimple. Umieszczę wewnątrz niego
+                trochę <small class="siimple-small">małego tekstu</small>, aby pokazać różnicę między tymi dwoma
+                rodzajami. Warto również zacytować znany tekst z traktatu Cycerona, który zwykle umieszcza się na
+                stronie po to, aby sprawdzić jak będzie wyglądał na niej tekst, gdy nie ma się jeszcze tekstu
+                własciwego.
+                <blockquote class="siimple-blockquote">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et dolor tempor, hendrerit sem ut,
+                    lacinia ex. Phasellus sagittis dignissim odio sit amet finibus.
+                </blockquote>
+            </p>
+
+            <p class="siimple-paragraph--lead">
+                To jest mój główny, najważniejszy akapit w całym tekście. Siimple umożliwia wyróżnienie go w taki
+                właśnie sposób. Prawda, że dużo bardziej przyciąga uwagę?
+            </p>
+            <p class="siimple-paragraph">
+                To jest najzwyczajniejszy na świecie paragraf wystylowany z pomocą siimple. Umieszczę wewnątrz niego
+                trochę <small class="siimple-small">małego tekstu</small>, aby pokazać różnicę między tymi dwoma
+                rodzajami.
+            </p>
+            <div class="siimple-h3">Użyte klasy</div>
+            <p class="siimple-paragraph siimple--text-justify">
+                Ten akapit wygląda na zwyczajny, ale dodam w nim trochę wiedzy. Umieszczę tutaj nazwy wszystkich klas,
+                których użyłam na tej podstronie. Do wystylizowania akapitów (tych zwyczajnych) skorzystałam z klasy
+                <code class="siimple-code">siimple-p</code>, a żeby tak pięknie wyróżnić najważniejszy akapi w tekście
+                posłużyłam się klasą <code class="siimple-code">siimple-paragraph--lead</code>. Mały tekst to klasa
+                <code class="siimple-code">siimple-small</code>, a tak ciekawie wyróżnione nazwy klas wystylowano z
+                wykorzystaniem klasy <code class="siimple-code">siimple-code</code>. Blok z cytatem wygląda tak dzięki
+                wykorzystaniu klasy <code class="siimple-code">siimple-blockquote</code>. Siimple umożliwia także
+                wystylowanie linków z wykorzystaniem klasy <code class="siimple-code">siimple-link</code>. Aby to
+                pokazać dodam <a href="https://docs.siimple.xyz/index.html" class="siimple-link">link</a> do
+                dokumentacji siimple, gdzie można doczytać więcej na temat możliwości tego frameworka.
+            </p>
+            <div class="siimple-h6">A co ze stylowaniem nagłówków?</div>
+            <p class="siimple-paragraph siimple--text-justify">
+                Nie sposób również przegapić znajdujących się na tej stronie nagłówków. Siimple udostępnia 6 klas do
+                stylizowania nagłówków, których składnia wygląda <code class="siimple-code">siimple-h[1-6]</code>.
+                Różnią się one rozmiarem (1 to największy nagłówek, a 6 to najmniejszy).
+            </p>
+            <div class="siimple-h2">Dostosowywanie dostępnych klas</div>
+            <p class="siimple-paragraph siimple--text-justify">
+                Siimple udostępnia klasy do modyfikowania stylu jakiegokolwiek elementu. Są to tzw. helpery.</p>
+            <h class="siimple-h4">Zmiana koloru</h>
+            <p class="siimple-paragraph siimple--text-justify siimple--color-primary">
+                Kolor tekstu można zmienić poprzez dodanie dodatkowej klasy <code
+                    class="siimple-code">siimple--color-[nazwa koloru]</code>.
+            </p>
+            <p class="siimple-paragraph siimple--text-justify siimple--bg-success">
+                Kolor tła można zmienić poprzez dodanie dodatkowej klasy <code class="siimple-code">siimple--bg-[nazwa
+                    koloru]</code>.
+            </p>
+            <h class="siimple-h4">Podstawowe formatowanie tekstu</h>
+            <h class="siimple-h6">Wyrównanie tekstu</h>
+            <p class="siimple-paragraph siimple--text-justify">
+                Tekst możemy wyrównać do strony lewej lub prawej, możemy go wyśrodkować lub wyjustować. Tę cechę można
+                ustawić w siimple dodając klasę <code class="siimple-code">siimple--text-[opcja]</code>.
+            </p>
+            <p class="siimple-paragraph siimple--text-left">
+                Aby wyrównać tekst do lewej strony skorzystaj z opcji <code class="siimple-code">left</code>.
+            </p>
+            <p class="siimple-paragraph siimple--text-right">
+                Aby wyrównać tekst do prawej strony skorzystaj z opcji <code class="siimple-code">right</code>.
+            </p>
+            <p class="siimple-paragraph siimple--text-center">
+                Aby wyśrodkować tekst należy wybrać opcję <code class="siimple-code">center</code>, a aby go wyjustować
+                - <code class="siimple-code">justify</code>.
+            </p>
+            <h class="siimple-h6">Odmiana tekstu</h>
+            Istnieje również możliwość dostosowania odmiany tekstu poprzez dodanie następujących klas: <div></div>
+            <div class="siimple--display-inline">
+                <div class="siimple--display-inline siimple--text-bold">Gruby tekst -<code class="siimple-code">siimple--text-bold</code>. 
+                </div><br><div class=" siimple--display-inline siimple--text-italic">Pochylony tekst -<code class="siimple-code">siimple--text-italic</code>.
+                </div><br>
+                <div class=" siimple--display-inline siimple--text-normal">Normalny tekst -<code class="siimple-code">siimple--text-normal</code>.
+                </div><br>
+                <div class=" siimple--display-inline siimple--text-small">Mały tekst -<code class="siimple-code">siimple--text-small</code>.
+                </div>
+            </div><br><br></div>
+            <div class="siimple-footer siimple-footer--orange" align="center">
+                <div>Made with love by <strong>siimple</strong></div><div class="siimple-small siimple--color-white">Dominika Limanówka i Iwo Różycki</div>
+            
+            
+        </main>
+    </body>
+    
+    </html>
